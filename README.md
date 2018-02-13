@@ -1,5 +1,5 @@
 # SavjeeCoin
-A very simple blockchain created using Javascript based on the 2 part tutorial by "Savjee" on youtube at 
+A very simple blockchain created using Javascript based on the 3 part tutorial by "Savjee" on youtube at 
 https://www.youtube.com/watch?v=zVqczFZr124&amp;feature=youtu.be
 
 This shows what is behind a blockchain by using simple code. 
@@ -15,4 +15,6 @@ begin with.
 The nonce value is changed with each mining attempt to generate a new hash. 
 This mining attempt (in the while loop) stops when an acceptable hash (with correct number of starting 0s) is generated
 and that valid block is added to the chain.
+
+There is a miner reward system implemented to award coins to miner address and return the "balance" of the miner.
 
